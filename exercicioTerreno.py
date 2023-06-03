@@ -15,3 +15,5 @@ print("Area do terreno = ", area, '\n' "Preço do terreno = ", preco)
 
 
 
+
+
