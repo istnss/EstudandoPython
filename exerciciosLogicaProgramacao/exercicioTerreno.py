@@ -12,8 +12,3 @@ metroQuadrado = float(input("Digite o valor do metro quadrado do terreno: "))
 area = largura * comprimento
 preco = area * metroQuadrado
 print("Area do terreno = ", area, '\n' "Preço do terreno = ", preco)
-
-
-
-
-
