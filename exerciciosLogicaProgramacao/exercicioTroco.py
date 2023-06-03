@@ -24,4 +24,6 @@ while True:
             print ("Valor inválido")
         break
     except:
-        print("Valor inválido. Digite um valor númerico!")   
+        print("Valor inválido. Digite um valor númerico!")  
+        
+#Aqui utilizei if/else para testar a condição de valor pago; Utilizei try/except para quando o usuário digitar algo diferente do valor numérico. 
