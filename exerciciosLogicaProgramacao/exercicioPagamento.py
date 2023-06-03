@@ -6,6 +6,7 @@ mostrar o valor do pagamento do funcionário com uma mensagem explicativa."""
 
 inf = "dados do funcionário: "
 print(inf.upper())
+#the upper() method converts all lowercase characters in a string into uppercase.
 
 nome = input("Digite o nome do funcionário: ")
 valorHora = int(input("Digite o valor por hora trabalhada: "))
