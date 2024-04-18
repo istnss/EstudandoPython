@@ -1,6 +1,5 @@
 """Problema "medidas"
-Fazer um programa para ler três medidas A, B e C. 
-Em seguida, calcular e mostrar (imprimir os dados
+Fazer um programa para ler três medidas A, B e C. Em seguida, calcular e mostrar (imprimir os dados
 com quatro casas decimais):
 a) a área do quadrado que tem lado A
 b) a área do triângulo retângulo que base A e altura B
@@ -12,7 +11,6 @@ c = float(input("Digite a medida C :"))
 
 areaQuadrado = (a ** 2)
 areaTriangulo = a * b/2
-areaTrapezio = (a + b) * c /2
+areaTrapezio = (a + b) * c /2 
 
-print("Area do quadrado: ", areaQuadrado, "\n Area do triangulo ", 
-      areaTriangulo, "\n Area do trapezio: ", areaTrapezio)
+print(f'Area do quadrado {areaQuadrado:.4f}.Area do triangulo {areaTrapezio:.4f} .Area do trapezio {areaTrapezio:.4f}')
